@@ -64,7 +64,7 @@ def classify(s2t: Speech2Text, dataset: Dataset) -> torch.Tensor:
 
 
 if __name__ == "__main__":
-    parser = ArgumentParser()
+    parser = ArgumentParser("Trains speech-to-text model and classifies data")
     parser.add_argument(
         "-c",
         "--classify",

@@ -15,7 +15,7 @@ def save_tts_files(words: list[str], output_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    parser = ArgumentParser()
+    parser = ArgumentParser("Generates audio files from word list")
     parser.add_argument(
         "-i", "--input", default="words.txt", help="file with list of words"
     )
