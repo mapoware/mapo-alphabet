@@ -3,7 +3,7 @@ Code to reproduce the results used in the video [Minmaxing the NATO alphabet](ht
 
 ## Requirements
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## Usage
